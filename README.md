@@ -31,4 +31,10 @@ The workflow includes:
 - [matplotlib](https://matplotlib.org/) & [seaborn](https://seaborn.pydata.org/) for visualization
 - [scikit-learn](https://scikit-learn.org/stable/) for ML model training & evaluation
 
-## 📂 Project Structure
+## 📊 Example Output
+              precision    recall  f1-score   support
+    Negative       0.82      0.90      0.86        50
+     Neutral       0.71      0.62      0.67        40
+    Positive       0.83      0.83      0.83        60
+    accuracy                           0.80       150
+
