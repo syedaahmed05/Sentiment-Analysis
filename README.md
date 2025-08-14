@@ -1,9 +1,9 @@
 # Sentiment-Analysis
-# 📦 Amazon Reviews Sentiment Analysis
+# Amazon Reviews Sentiment Analysis
 
 This project analyzes Amazon product reviews to classify them into **Negative**, **Neutral**, or **Positive** sentiments using **Natural Language Processing (NLP)** and **Machine Learning**.
 
-## 📌 Overview
+## Overview
 The workflow includes:
 1. **Loading & Cleaning Data**  
    - Reads `amazon_reviews.csv`  
@@ -24,14 +24,14 @@ The workflow includes:
    - Sentiment distribution bar plot  
    - Confusion matrix heatmap
 
-## 🛠 Technologies Used
+## Technologies Used
 - **Python 3**
 - [pandas](https://pandas.pydata.org/) for data manipulation
 - [re](https://docs.python.org/3/library/re.html) for regex text cleaning
 - [matplotlib](https://matplotlib.org/) & [seaborn](https://seaborn.pydata.org/) for visualization
 - [scikit-learn](https://scikit-learn.org/stable/) for ML model training & evaluation
 
-## 📊 Example Output
+## Example Output
               precision    recall  f1-score   support
     Negative       0.82      0.90      0.86        50
      Neutral       0.71      0.62      0.67        40
